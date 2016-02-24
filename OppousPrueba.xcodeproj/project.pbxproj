@@ -15,6 +15,16 @@
 		F1D930AA1C7CA7790090B376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D930A81C7CA7790090B376 /* LaunchScreen.storyboard */; };
 		F1D930B51C7CA7790090B376 /* OppousPruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D930B41C7CA7790090B376 /* OppousPruebaTests.swift */; };
 		F1D930C01C7CA7790090B376 /* OppousPruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D930BF1C7CA7790090B376 /* OppousPruebaUITests.swift */; };
+		F1D930CF1C7CC0C70090B376 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D930CD1C7CC0C70090B376 /* Register.storyboard */; };
+		F1D930D31C7CC9C40090B376 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D930D21C7CC9C40090B376 /* RegisterViewController.swift */; };
+		F1D930D71C7CCDEF0090B376 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D930D61C7CCDEF0090B376 /* AnimationView.swift */; };
+		F1D930DA1C7CD8370090B376 /* WebServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D930D91C7CD8370090B376 /* WebServicesManager.swift */; };
+		F1D930DD1C7CF9F90090B376 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D930DB1C7CF9F90090B376 /* Login.storyboard */; };
+		F1D930E21C7CFC970090B376 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D930E11C7CFC970090B376 /* LoginViewController.swift */; };
+		F1D930E41C7D38BF0090B376 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D930E31C7D38BF0090B376 /* UsersViewController.swift */; };
+		F1D930E71C7D3B180090B376 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D930E61C7D3B180090B376 /* User.swift */; };
+		F1D930EA1C7D3F3B0090B376 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D930E81C7D3F3B0090B376 /* UserTableViewCell.swift */; };
+		F1D930EB1C7D3F3B0090B376 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D930E91C7D3F3B0090B376 /* UserTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		F1D930BB1C7CA7790090B376 /* OppousPruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OppousPruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D930BF1C7CA7790090B376 /* OppousPruebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OppousPruebaUITests.swift; sourceTree = "<group>"; };
 		F1D930C11C7CA7790090B376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D930CE1C7CC0C70090B376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Register.storyboard; sourceTree = "<group>"; };
+		F1D930D21C7CC9C40090B376 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = src/RegisterViewController.swift; sourceTree = "<group>"; };
+		F1D930D61C7CCDEF0090B376 /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationView.swift; path = src/AnimationView.swift; sourceTree = "<group>"; };
+		F1D930D91C7CD8370090B376 /* WebServicesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebServicesManager.swift; path = src/WebServicesManager.swift; sourceTree = "<group>"; };
+		F1D930DC1C7CF9F90090B376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		F1D930E11C7CFC970090B376 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = src/LoginViewController.swift; sourceTree = "<group>"; };
+		F1D930E31C7D38BF0090B376 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersViewController.swift; path = src/UsersViewController.swift; sourceTree = "<group>"; };
+		F1D930E61C7D3B180090B376 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = src/User.swift; sourceTree = "<group>"; };
+		F1D930E81C7D3F3B0090B376 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserTableViewCell.swift; path = src/UserTableViewCell.swift; sourceTree = "<group>"; };
+		F1D930E91C7D3F3B0090B376 /* UserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserTableViewCell.xib; path = src/UserTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +119,15 @@
 		F1D9309B1C7CA7790090B376 /* OppousPrueba */ = {
 			isa = PBXGroup;
 			children = (
-				F1D9309C1C7CA7790090B376 /* AppDelegate.swift */,
 				F1D9309E1C7CA7790090B376 /* ViewController.swift */,
 				F1D930A01C7CA7790090B376 /* Main.storyboard */,
-				F1D930A61C7CA7790090B376 /* Assets.xcassets */,
 				F1D930A81C7CA7790090B376 /* LaunchScreen.storyboard */,
-				F1D930AB1C7CA7790090B376 /* Info.plist */,
-				F1D930A31C7CA7790090B376 /* OppousPrueba.xcdatamodeld */,
+				F1D930A61C7CA7790090B376 /* Assets.xcassets */,
+				F1D930D81C7CD14A0090B376 /* Objects */,
+				F1D930D01C7CC9750090B376 /* Register */,
+				F1D930DE1C7CFA6A0090B376 /* Login */,
+				F1D930E51C7D38D10090B376 /* Users */,
+				F1D930D11C7CC98C0090B376 /* Suporting File */,
 			);
 			path = OppousPrueba;
 			sourceTree = "<group>";
@@ -126,6 +148,54 @@
 				F1D930C11C7CA7790090B376 /* Info.plist */,
 			);
 			path = OppousPruebaUITests;
+			sourceTree = "<group>";
+		};
+		F1D930D01C7CC9750090B376 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F1D930D21C7CC9C40090B376 /* RegisterViewController.swift */,
+				F1D930CD1C7CC0C70090B376 /* Register.storyboard */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		F1D930D11C7CC98C0090B376 /* Suporting File */ = {
+			isa = PBXGroup;
+			children = (
+				F1D9309C1C7CA7790090B376 /* AppDelegate.swift */,
+				F1D930AB1C7CA7790090B376 /* Info.plist */,
+				F1D930A31C7CA7790090B376 /* OppousPrueba.xcdatamodeld */,
+			);
+			name = "Suporting File";
+			sourceTree = "<group>";
+		};
+		F1D930D81C7CD14A0090B376 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				F1D930E61C7D3B180090B376 /* User.swift */,
+				F1D930D91C7CD8370090B376 /* WebServicesManager.swift */,
+				F1D930D61C7CCDEF0090B376 /* AnimationView.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		F1D930DE1C7CFA6A0090B376 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F1D930DB1C7CF9F90090B376 /* Login.storyboard */,
+				F1D930E11C7CFC970090B376 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		F1D930E51C7D38D10090B376 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				F1D930E31C7D38BF0090B376 /* UsersViewController.swift */,
+				F1D930E81C7D3F3B0090B376 /* UserTableViewCell.swift */,
+				F1D930E91C7D3F3B0090B376 /* UserTableViewCell.xib */,
+			);
+			name = Users;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +305,9 @@
 				F1D930AA1C7CA7790090B376 /* LaunchScreen.storyboard in Resources */,
 				F1D930A71C7CA7790090B376 /* Assets.xcassets in Resources */,
 				F1D930A21C7CA7790090B376 /* Main.storyboard in Resources */,
+				F1D930DD1C7CF9F90090B376 /* Login.storyboard in Resources */,
+				F1D930EB1C7D3F3B0090B376 /* UserTableViewCell.xib in Resources */,
+				F1D930CF1C7CC0C70090B376 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +332,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D930E21C7CFC970090B376 /* LoginViewController.swift in Sources */,
+				F1D930DA1C7CD8370090B376 /* WebServicesManager.swift in Sources */,
 				F1D9309F1C7CA7790090B376 /* ViewController.swift in Sources */,
+				F1D930D71C7CCDEF0090B376 /* AnimationView.swift in Sources */,
+				F1D930EA1C7D3F3B0090B376 /* UserTableViewCell.swift in Sources */,
 				F1D930A51C7CA7790090B376 /* OppousPrueba.xcdatamodeld in Sources */,
+				F1D930E71C7D3B180090B376 /* User.swift in Sources */,
+				F1D930E41C7D38BF0090B376 /* UsersViewController.swift in Sources */,
 				F1D9309D1C7CA7790090B376 /* AppDelegate.swift in Sources */,
+				F1D930D31C7CC9C40090B376 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +391,22 @@
 				F1D930A91C7CA7790090B376 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F1D930CD1C7CC0C70090B376 /* Register.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D930CE1C7CC0C70090B376 /* Base */,
+			);
+			name = Register.storyboard;
+			sourceTree = "<group>";
+		};
+		F1D930DB1C7CF9F90090B376 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D930DC1C7CF9F90090B376 /* Base */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -402,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OppousPrueba/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.OppousPrueba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OppousPrueba/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.OppousPrueba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +584,7 @@
 				F1D930C61C7CA7790090B376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D930C71C7CA7790090B376 /* Build configuration list for PBXNativeTarget "OppousPruebaTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +593,7 @@
 				F1D930C91C7CA7790090B376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D930CA1C7CA7790090B376 /* Build configuration list for PBXNativeTarget "OppousPruebaUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +602,7 @@
 				F1D930CC1C7CA7790090B376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

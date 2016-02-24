@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xHH-9P-cr5">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Registro-->
+        <scene sceneID="z87-Iu-f1s">
+            <objects>
+                <viewController id="xHH-9P-cr5" customClass="RegisterViewController" customModule="OppousPrueba" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LNw-Tw-gMr"/>
+                        <viewControllerLayoutGuide type="bottom" id="wR9-e3-D4N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hfU-CE-RhF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RZs-Yp-Cdf" userLabel="EditingView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre de usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xg1-j7-vyx">
+                                        <rect key="frame" x="15" y="165" width="290" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ECh-wJ-TCJ">
+                                        <rect key="frame" x="15" y="225" width="290" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O0O-r6-4JA">
+                                        <rect key="frame" x="15" y="285" width="290" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJc-bR-0ia">
+                                        <rect key="frame" x="15" y="377" width="290" height="30"/>
+                                        <state key="normal" title="Registrar"/>
+                                        <connections>
+                                            <action selector="register:" destination="xHH-9P-cr5" eventType="touchUpInside" id="yvb-41-bs9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="O0O-r6-4JA" firstAttribute="top" secondItem="ECh-wJ-TCJ" secondAttribute="bottom" constant="30" id="0RQ-BT-CUE"/>
+                                    <constraint firstItem="xg1-j7-vyx" firstAttribute="width" secondItem="ECh-wJ-TCJ" secondAttribute="width" id="2AK-qV-Ray"/>
+                                    <constraint firstItem="ECh-wJ-TCJ" firstAttribute="centerX" secondItem="RZs-Yp-Cdf" secondAttribute="centerX" id="Cgi-NT-DCG"/>
+                                    <constraint firstItem="gJc-bR-0ia" firstAttribute="centerX" secondItem="RZs-Yp-Cdf" secondAttribute="centerX" id="Elc-T8-due"/>
+                                    <constraint firstItem="xg1-j7-vyx" firstAttribute="centerX" secondItem="ECh-wJ-TCJ" secondAttribute="centerX" id="Nnk-h9-NUx"/>
+                                    <constraint firstItem="O0O-r6-4JA" firstAttribute="centerX" secondItem="ECh-wJ-TCJ" secondAttribute="centerX" id="RJk-6u-rvL"/>
+                                    <constraint firstAttribute="bottom" secondItem="gJc-bR-0ia" secondAttribute="bottom" constant="73" id="VMk-RI-S00"/>
+                                    <constraint firstItem="ECh-wJ-TCJ" firstAttribute="width" secondItem="RZs-Yp-Cdf" secondAttribute="width" constant="-30" id="Xo8-hh-muh"/>
+                                    <constraint firstItem="O0O-r6-4JA" firstAttribute="width" secondItem="ECh-wJ-TCJ" secondAttribute="width" id="YPf-xk-K9l"/>
+                                    <constraint firstItem="ECh-wJ-TCJ" firstAttribute="centerY" secondItem="RZs-Yp-Cdf" secondAttribute="centerY" id="eiT-dd-f81"/>
+                                    <constraint firstItem="ECh-wJ-TCJ" firstAttribute="top" secondItem="xg1-j7-vyx" secondAttribute="bottom" constant="30" id="fXX-71-0sF"/>
+                                    <constraint firstItem="gJc-bR-0ia" firstAttribute="width" secondItem="O0O-r6-4JA" secondAttribute="width" id="pkl-uK-mBb"/>
+                                </constraints>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EZp-D1-lel" userLabel="LoadingView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="M5d-0F-Nss">
+                                        <rect key="frame" x="150" y="230" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="M5d-0F-Nss" firstAttribute="centerX" secondItem="EZp-D1-lel" secondAttribute="centerX" id="6Ri-Qf-Dt9"/>
+                                    <constraint firstItem="M5d-0F-Nss" firstAttribute="centerY" secondItem="EZp-D1-lel" secondAttribute="centerY" id="7Ll-BS-P2Z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EZp-D1-lel" firstAttribute="centerY" secondItem="hfU-CE-RhF" secondAttribute="centerY" id="A65-oT-sqX"/>
+                            <constraint firstItem="RZs-Yp-Cdf" firstAttribute="height" secondItem="hfU-CE-RhF" secondAttribute="height" id="AbC-MU-Kek"/>
+                            <constraint firstItem="RZs-Yp-Cdf" firstAttribute="width" secondItem="hfU-CE-RhF" secondAttribute="width" id="BUl-4I-p7v"/>
+                            <constraint firstItem="wR9-e3-D4N" firstAttribute="top" secondItem="RZs-Yp-Cdf" secondAttribute="bottom" constant="-49" id="KHe-aL-L46"/>
+                            <constraint firstItem="EZp-D1-lel" firstAttribute="height" secondItem="hfU-CE-RhF" secondAttribute="height" id="Kbe-Sf-M3G"/>
+                            <constraint firstItem="RZs-Yp-Cdf" firstAttribute="centerX" secondItem="hfU-CE-RhF" secondAttribute="centerX" id="V6F-vs-GDP"/>
+                            <constraint firstItem="EZp-D1-lel" firstAttribute="centerX" secondItem="hfU-CE-RhF" secondAttribute="centerX" id="XDW-Zc-kA5"/>
+                            <constraint firstItem="EZp-D1-lel" firstAttribute="width" secondItem="hfU-CE-RhF" secondAttribute="width" id="mDk-U1-LyH"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Registro" image="register" id="veC-PB-8e2"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="editingView" destination="RZs-Yp-Cdf" id="FEz-da-VL3"/>
+                        <outlet property="emailTextField" destination="ECh-wJ-TCJ" id="Eyd-bu-ZY5"/>
+                        <outlet property="loadingView" destination="EZp-D1-lel" id="6OE-pe-9HT"/>
+                        <outlet property="passwordTextField" destination="O0O-r6-4JA" id="vQH-QR-v9Q"/>
+                        <outlet property="userNameTextField" destination="xg1-j7-vyx" id="U1E-Yr-Zcf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="87g-ML-6xe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-254" y="-590"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="register" width="24" height="24"/>
+    </resources>
+</document>
